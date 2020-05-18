@@ -67,3 +67,6 @@ p {
 .justify-self-right {
     justify-self: end;
 }
+.test {
+    border: 1px solid red;
+}
