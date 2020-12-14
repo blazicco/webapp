@@ -193,7 +193,7 @@ a {
 }
 
 .bg2 {
-  background-image: url("/images/consultation.jpg");
+  background-image: url("../images/consultation.jpg");
 }
 
 .bg3 {
@@ -1278,7 +1278,7 @@ header .container {
 }
 
 .pager-section {
-  background-image: url("/images/home.jpg");
+  background-image: url("../images/home.jpg");
   padding: 213px 0 134px;
 }
 .pager-section .container {
@@ -1585,7 +1585,7 @@ header .container {
   transform: translateY(-50%);
   width: 6px;
   height: 115px;
-  background-color: #f43930;
+  background-color: #028dc6;
 }
 .page-details .team-details-sec .tm-info h3 {
   color: #ffffff;
