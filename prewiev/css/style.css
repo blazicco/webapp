@@ -174,7 +174,7 @@ a {
   padding-bottom: 4px;
 }
 .btn-default:hover {
-  color: #f43930;
+  color: #ffffff;
 }
 
 .fixed-bg {
@@ -1183,7 +1183,7 @@ header .container {
   right: 0;
   width: 8px;
   height: 100%;
-  background-color: #f43930;
+  background-color: #028dc6;
 }
 .team-section .team .team-info h3 {
   color: #ffffff;
@@ -1520,7 +1520,7 @@ header .container {
 }
 .page-details > img {
   margin-bottom: 29px;
-  filter: grayscale(1);
+  filter: grayscale(0);
 }
 .page-details p {
   color: #262626;
@@ -1563,7 +1563,7 @@ header .container {
   padding: 0;
 }
 .page-details .team-details-sec .tm-img img {
-  filter: grayscale(1);
+  filter: grayscale(0);
 }
 .page-details .team-details-sec .team-m-info {
   height: 100%;
@@ -1705,7 +1705,7 @@ header .container {
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  margin-bottom: 30px;
+  margin-bottom: 190px;
 }
 .sidebar.blog-sidebar .widget-title:before {
   display: none;
@@ -1736,7 +1736,7 @@ header .container {
   color: #fff;
 }
 .sidebar.blog-sidebar .widget-posts li {
-  margin-bottom: 23px;
+  margin-bottom: 30px;
 }
 .sidebar.blog-sidebar .widget-posts li:last-child {
   margin-bottom: 0;
@@ -1800,7 +1800,7 @@ header .container {
 }
 .contact_section .contact_info ul li > span i:before {
   font-size: 40px;
-  color: #f43930;
+  color:#028dc6;
 }
 .contact_section .contact_info ul li .ccn-info {
   flex: 0 0 86%;
@@ -1942,7 +1942,7 @@ header .container {
   left: 0;
   width: 100%;
   height: 0;
-  background-color: #f43930;
+  background-color: #028dc6;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.4s ease-in-out;
@@ -1950,7 +1950,7 @@ header .container {
   transition: all 0.4s ease-in-out;
 }
 .blog-page-head ul li a.active, .blog-page-head ul li a:hover {
-  color: #f43930;
+  color:#028dc6;
 }
 .blog-page-head ul li a.active:before, .blog-page-head ul li a:hover:before {
   opacity: 1;
