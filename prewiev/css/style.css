@@ -731,6 +731,16 @@ header .container {
   object-fit: cover;
 }
  
+#fullwidth-video .overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    background: rgb(59, 65, 59);
+    opacity: 0.5;
+}
  
   /** For Edge**//
  
