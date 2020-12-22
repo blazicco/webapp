@@ -696,18 +696,11 @@ header .container {
   vertical-align: middle;
 }
 
-.main-banner {
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 720px;
-  padding: 150px 0 0;
-}
-
 #fullwidth-video{
   height: 50vw; 
   min-height:50vh;
-  position: relative;
   }
+ 
  
   #fullwidth-video .fullwidth-video-bg {
   position: absolute; 
@@ -720,7 +713,7 @@ header .container {
   background-size: cover; 
   background-color: transparent; 
   background-repeat: no-repeat;
-  background-position: 0% 50%; background-image:url("./images/people.jpg");  
+  background-position: 0% 50%; background-image:url("../images/people.jpg");  
   }
  
  
@@ -748,28 +741,35 @@ header .container {
      top:50%;
      left:0%;transform:translate(0%, -50%);
      height:auto;width:100%; } 
-     } 
+     }
 
+.main-banner {
+  
+  height: 900px;
+  padding: 150px 0 0;
+}
 .main-banner .container {
-  max-width: 1560px;
+      max-width: 1580px;
 }
 .main-banner .banner-text {
   flex: 0 0 780px;
   max-width: 780px;
-  padding-top: 92px;
+  padding-top: 250px;
 }
 .main-banner .banner-text > h2 {
-  color: #ffffff;
-  font-size: 90px;
-  font-weight: 700;
-  line-height: 95px;
-  margin-bottom: 50px;
   z-index: 999;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 95px;
+  margin-bottom: 20px;
+  margin: 0 5rem;
+  position: absolute;
 }
 .main-banner .banner-text a {
   display: inline-block;
   color:#0448a1;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 600;
   padding-bottom: 4px;
   border-bottom: 1px solid#0448a1;
@@ -1522,13 +1522,19 @@ header .container {
 .price-section.style2 .price-col li:before {
   color: rgba(255, 255, 255, 0.5);
 }
-
+.mergers li {
+  color: #000000;
+  list-style: square;
+  list-style-position: inside;
+  margin-top: 5px;
+  padding-left: 30px;
+}
 .page-details {
   max-width: 789px;
 }
 .page-details h2 {
   color: #262626;
-  font-size: 48px;
+  font-size: 41px;
   line-height: 60px;
   margin-bottom: 30px;
   max-width: 70%;
@@ -1631,7 +1637,6 @@ header .container {
   padding-left: 50px;
   padding-right: 50px;
 }
-
 .social_links li {
   display: inline-block;
   margin-right: 20px;
@@ -1644,7 +1649,7 @@ header .container {
 
 .sidebar .widget-title {
   color: #262626;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
   position: relative;
   padding-bottom: 22px;
@@ -1688,7 +1693,7 @@ header .container {
   -webkit-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  color: #f43930;
+  color: #028dc6;
 }
 .sidebar .widget-services ul li a:before {
   content: "";
@@ -2288,12 +2293,12 @@ header .container {
   margin-bottom: 66px;
 }
 .burger-menu .menu-middle .main-menu .menu-widget ul li {
-  margin-bottom: 27px;
+  margin-bottom: 20px;
 }
 .burger-menu .menu-middle .main-menu .menu-widget ul li a {
   display: block;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 24px;
+  font-size: 20px;
 }
 .burger-menu .menu-middle .main-menu .menu-widget ul li a:hover {
   color: #fff;
@@ -2937,7 +2942,7 @@ footer .bt-links li a {
   }
 
   .main-banner .banner-text {
-    flex: inherit;
+    flex: auto;
     max-width: 100%;
     width: 100%;
   }
@@ -3336,7 +3341,6 @@ footer .bt-links li a {
     font-size: 40px;
     line-height: 42px;
   }
-
   .abt-img h2 {
     display: none;
   }
