@@ -602,6 +602,15 @@ header .container {
   max-width: 1560px;
 }
 
+.navbar {
+  overflow: hidden;
+  background-color:transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+
 .header-content .menu-btn {
   flex: 0 0 125px;
   max-width: 125px;
@@ -651,9 +660,10 @@ header .container {
 .header-content nav ul li a {
   display: inline-block;
   color: #ffffff;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
   padding: 53px 30px 21px;
+  margin-left: 20px;
 }
 .header-content nav ul li a.active, .header-content nav ul li a:hover {
   background-color: #028dc6;
@@ -715,7 +725,6 @@ header .container {
   background-repeat: no-repeat;
   background-position: 0% 50%; background-image:url("../images/people.jpg");  
   }
- 
  
  #fullwidth-video video {
   margin: auto;
