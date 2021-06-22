@@ -620,7 +620,6 @@ header .container {
   display: inline-block;
   width: 20px;
   margin-top: 21px;
-  float: left;
 }
 .header-content .menu-btn > a span {
   display: block;
